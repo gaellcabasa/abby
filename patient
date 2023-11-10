@@ -1,0 +1,23 @@
+public class Patient {
+    private String firstName;
+    private String lastName;
+    private String symptoms;
+
+    public Patient(String firstName, String lastName, String symptoms){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.symptoms = symptoms;
+    }
+
+    public String getFirstName(){
+        return firstName;
+    }
+
+    public String getLastName(){
+        return lastName;
+    }
+
+     public String getSymptoms(){
+        return symptoms;
+    }
+}
